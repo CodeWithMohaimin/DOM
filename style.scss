@@ -14,4 +14,33 @@
 }
 #list li{
     margin: 10px 0;
+    background: #88f;
+}
+#btn{
+    background: #99f;
+    border: none;
+    padding: 9px 25px;
+    border-radius: 6px;
+    color: #ff0;
+    cursor: pointer;
+}
+#rbtn{
+    background: #99f;
+    border: none;
+    padding: 9px 25px;
+    border-radius: 6px;
+    color: #ff0;
+    cursor: pointer;
+}
+.canvas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+#canvas{
+    width: 300px;
+    height: 150px;
+    background: #99f;
+    color: #ff0;
 }
