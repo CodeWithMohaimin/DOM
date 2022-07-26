@@ -4,17 +4,17 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     list-style: none;
-    text-align: center;
+    font-family: sans-serif;
 }
 .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    max-width: 600px;
+    width: 100%;
+    margin: 70px auto;
+    background-color: #ff0;
+    padding: 20px;
 }
 #list li{
     margin: 10px 0;
-    background: #88f;
 }
 #btn{
     background: #99f;
@@ -32,15 +32,27 @@
     color: #ff0;
     cursor: pointer;
 }
-.canvas{
+.checkbox {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 50px;
+    align-items: flex-start;
+
 }
-#canvas{
-    width: 300px;
-    height: 150px;
-    background: #99f;
-    color: #ff0;
+#name{
+    font-size: 16px;
+    padding: 7px;
+    outline: none;
+    border-radius: 7px;
+    border: none;
+    background: rgb(221, 221, 164);
+}
+#inputs{
+    margin-top: 60px;
+    h3{
+        margin-top: 15px;
+    }
+    input{
+        margin: 7px;
+    }
 }

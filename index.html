@@ -19,12 +19,28 @@
     </div>
     <button id="btn">Add Me</button>
     <button id="rbtn">Remove</button>
-    <div class="canvas">
-        <div id="canvas">
-            <p>(<span id="x-value">0</span> , <span id="y-value">0</span>)</p>
+
+    
+    
+    <div class="container">
+
+        <div class="input">
+            <h2>Type your name here</h2><br>
+            <input id="name" type="text" placeholder="Enter your name"> 
+            <p id="show-name"></p>
+        </div>
+
+        <div id="inputs">
+            <h2>Choose your skills</h2>
+            <div><input type="checkbox"><label name="skills">C </label></div>
+            <div><input type="checkbox"><label name="skills">Java </label></div>
+            <div><input type="checkbox"><label name="skills">Python </label></div>
+            <div><input type="checkbox"><label name="skills">JavaScript</label></div>
+            <div><input type="checkbox"><label name="skills">PHP</label></div>
+
+            <h3>Selected Skills :</h3>
         </div>
     </div>
-
-    <script src="js/eventHande/add.js"></script>
+    <script src="js/eventHande/checkbox.js"></script>
 </body>
 </html> 
